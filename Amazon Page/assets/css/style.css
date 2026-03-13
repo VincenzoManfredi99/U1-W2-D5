@@ -1,12 +1,19 @@
 /* Mystyle */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
 h1 {
     font-size: 3em;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500;
+    font-style: normal;
 }
 
 h2 {
     font-size: 2em;
     margin: 0.3em;
-    display: inline;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500;
+    font-style: normal;
 }
 
 html {
@@ -34,6 +41,9 @@ html {
     padding-top: 0.8em;
 }
 
+#categorie h2{
+        display: inline;
+}
 
 /*Main*/
 
@@ -58,8 +68,12 @@ main{
     color: white;
  }
 
- #primo-blocco h2 {
-    padding-top: 20em;
+ #scritta-primo-blocco{
+    padding-top: 3em;
+ }
+
+  #scritta-primo-blocco h1 {
+    margin-bottom: 0.5em;
  }
 
  #secondo-blocco {
@@ -90,14 +104,33 @@ main figure {
     margin: 0.3em 0;
  }
 
- #striscia {
-    padding-left: 1em;
-    background-color: #364757;
-    height: 4vh;
-    color: white;
-    padding-top: 0.8em;
-    text-align: center;
+ figcaption{
+    font-size: 1.7em;
+    display: inline;
  }
+ a {
+    color: rgb(0, 136, 255);
+    text-decoration: none;
+    margin-left: 2em;
+    font-weight: 900;
+    font-size: 1.3em;
+    color: #066373;
+ }
+
+ /*Footer*/
+
+ #striscia {
+    background-color: #364757;
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+    margin= 0
+ }
+
+#striscia h2 {
+    padding: 0.3em;
+    margin:0;
+}
 
  #bottom {
   background-color: #222f3f;
@@ -106,4 +139,5 @@ main figure {
 
  #bottom img {
     padding: 3em;
+    height: 100px;
  }
