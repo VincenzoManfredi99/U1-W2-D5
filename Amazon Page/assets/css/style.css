@@ -1,0 +1,109 @@
+/* Mystyle */
+h1 {
+    font-size: 3em;
+}
+
+h2 {
+    font-size: 2em;
+    margin: 0.3em;
+    display: inline;
+}
+
+html {
+    background-color: rgb(247, 245, 240);
+}
+
+
+/*Header*/
+
+#top{
+    background-color: #222f3f;
+    height: 8vh;
+}
+
+#top img{
+    height: 60%;
+    padding: 1.2em;
+}
+
+#categorie {
+    padding-left: 1em;
+    background-color: #364757;
+    height: 4vh;
+    color: white;
+    padding-top: 0.8em;
+}
+
+
+/*Main*/
+
+main{
+    width: 95%;
+    margin: 3em auto;
+    text-align: center;
+}
+
+#scrittaOrange{
+    background-color: #f36700 ;
+    padding: 0.5em;
+    color: white;
+}
+
+#primo-blocco {
+    background-image: url('./images/bg-image.png');
+    background-size: 100%;
+    margin: 2em 0;
+    background-repeat: repeat;
+    height: 14em;
+    color: white;
+ }
+
+ #primo-blocco h2 {
+    padding-top: 20em;
+ }
+
+ #secondo-blocco {
+    background-color: white;
+ }
+
+ #secondo-blocco img{
+    width: 22%;
+    height: 600px;
+    border-radius: 20px;
+    margin: 1.4em;
+    object-fit: cover;
+    box-shadow: 8px 5px 10px rgb(182, 206, 212);
+ }
+
+ #secondo-blocco div {
+    text-align: start;
+    padding: 1em;
+    padding-left: 2em;
+ }
+
+main figure {
+    margin: 3em 0;
+}
+
+ main figure img {
+    width: 100%;
+    margin: 0.3em 0;
+ }
+
+ #striscia {
+    padding-left: 1em;
+    background-color: #364757;
+    height: 4vh;
+    color: white;
+    padding-top: 0.8em;
+    text-align: center;
+ }
+
+ #bottom {
+  background-color: #222f3f;
+    text-align: center;
+}
+
+ #bottom img {
+    padding: 3em;
+ }
